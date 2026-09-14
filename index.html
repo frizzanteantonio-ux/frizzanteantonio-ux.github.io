@@ -5,77 +5,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Antonio Frizzante | Portfolio</title>
+    <title>Antonio Frizzante | Python & Artificial Intelligence</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- HEADER -->
+    <!-- =========================
+         NAVBAR
+         ========================= -->
+
     <header>
+
         <div class="container">
 
-            <div class="logo">
-                Antonio Frizzante
-            </div>
-
             <nav>
-                <a href="#home">Home</a>
-                <a href="#chi-sono">Chi sono</a>
-                <a href="#skills">Competenze</a>
-                <a href="#progetti">Progetti</a>
-                <a href="#contatti">Contatti</a>
+
+                <div class="logo">
+                    Antonio Frizzante
+                </div>
+
+                <ul>
+
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#about">Chi sono</a>
+                    </li>
+
+                    <li>
+                        <a href="#skills">Competenze</a>
+                    </li>
+
+                    <li>
+                        <a href="#projects">Progetti</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">Contatti</a>
+                    </li>
+
+                </ul>
+
             </nav>
 
         </div>
+
     </header>
 
 
-    <!-- HERO -->
-    <section id="home" class="hero">
+    <!-- =========================
+         HERO
+         ========================= -->
+
+    <section class="hero" id="home">
 
         <div class="container">
 
-            <h1>Ciao, sono Antonio 👋</h1>
+            <p>
+                DATA • CODE • ARTIFICIAL INTELLIGENCE
+            </p>
+
+            <h1>
+                Ciao, sono Antonio 👋
+            </h1>
 
             <h2>
-                Python | Machine Learning | Deep Learning
+                Python<br>
+                Machine Learning<br>
+                Deep Learning
             </h2>
 
             <p>
-                Questo è il mio portfolio dedicato al percorso
-                che sto sviluppando nel mondo della programmazione,
-                dell'analisi dei dati e dell'intelligenza artificiale.
+
+                Sto sviluppando competenze nel mondo della
+                programmazione Python, dell'analisi dei dati
+                e dell'intelligenza artificiale.
+
+                Trasformo dati e idee in progetti attraverso il codice.
+
             </p>
+
+
+            <div class="buttons">
+
+                <a class="btn" href="#projects">
+                    I miei progetti →
+                </a>
+
+                <a class="btn"
+                   href="https://github.com/frizzanteantonio-ux"
+                   target="_blank">
+                    GitHub
+                </a>
+
+            </div>
 
         </div>
 
     </section>
 
 
-    <!-- CHI SONO -->
-    <section id="chi-sono">
+    <!-- =========================
+         CHI SONO
+         ========================= -->
+
+    <section id="about">
 
         <div class="container">
 
-            <h2 class="section-title">
-                Chi sono
-            </h2>
+            <h2>Chi sono</h2>
 
             <p>
-                Sto sviluppando le mie competenze nella programmazione
-                Python, partendo dai concetti fondamentali fino ad
-                arrivare al Machine Learning, al Deep Learning e
-                alle reti neurali.
-            </p>
 
-            <br>
+                Sono Antonio e sto costruendo il mio percorso
+                nel mondo della programmazione e dell'intelligenza
+                artificiale.
 
-            <p>
-                In questo portfolio raccolgo esercizi, esperimenti
-                e progetti realizzati durante il mio percorso
-                di apprendimento.
+                Il mio percorso parte dalle basi di Python e
+                arriva progressivamente alla gestione dei dati,
+                al Machine Learning e al Deep Learning.
+
+                Utilizzo i progetti pratici per mettere in pratica
+                ciò che studio e migliorare continuamente le mie
+                competenze.
+
             </p>
 
         </div>
@@ -83,63 +140,89 @@
     </section>
 
 
-    <!-- COMPETENZE -->
+    <!-- =========================
+         COMPETENZE
+         ========================= -->
+
     <section id="skills">
 
         <div class="container">
 
-            <h2 class="section-title">
-                Competenze
-            </h2>
+            <h2>Competenze</h2>
+
 
             <div class="skills">
 
-                <div class="skill">
+
+                <!-- PYTHON -->
+
+                <div class="skill-card">
+
                     <h3>🐍 Python</h3>
+
                     <p>
-                        Sintassi, variabili, funzioni,
-                        strutture dati, moduli e OOP.
+
+                        Sintassi di base, variabili,
+                        strutture dati, condizioni,
+                        cicli, funzioni, moduli,
+                        classi e programmazione ad oggetti.
+
                     </p>
+
                 </div>
 
-                <div class="skill">
+
+                <!-- DATA ANALYSIS -->
+
+                <div class="skill-card">
+
                     <h3>📊 Data Analysis</h3>
+
                     <p>
-                        NumPy, Pandas, Matplotlib
-                        e visualizzazione dei dati.
+
+                        NumPy, Pandas, gestione dei dati,
+                        preprocessing, analisi e
+                        visualizzazione con Matplotlib.
+
                     </p>
+
                 </div>
 
-                <div class="skill">
+
+                <!-- MACHINE LEARNING -->
+
+                <div class="skill-card">
+
                     <h3>🤖 Machine Learning</h3>
+
                     <p>
+
                         Scikit-learn, regressione,
-                        classificazione e valutazione dei modelli.
+                        Decision Tree, Random Forest,
+                        preprocessing e valutazione
+                        dei modelli.
+
                     </p>
+
                 </div>
 
-                <div class="skill">
+
+                <!-- DEEP LEARNING -->
+
+                <div class="skill-card">
+
                     <h3>🧠 Deep Learning</h3>
-                    <p>
-                        TensorFlow, Keras e reti neurali.
-                    </p>
-                </div>
 
-                <div class="skill">
-                    <h3>👁️ CNN</h3>
                     <p>
+
+                        TensorFlow, Keras, reti neurali,
                         Convolutional Neural Networks
-                        e classificazione delle immagini.
+                        e classificazione di immagini.
+
                     </p>
+
                 </div>
 
-                <div class="skill">
-                    <h3>💻 Git & GitHub</h3>
-                    <p>
-                        Gestione del codice, repository
-                        e progetti.
-                    </p>
-                </div>
 
             </div>
 
@@ -148,120 +231,98 @@
     </section>
 
 
-    <!-- PROGETTI -->
-    <section id="progetti">
+    <!-- =========================
+         PROGETTI
+         ========================= -->
+
+    <section id="projects">
 
         <div class="container">
 
-            <h2 class="section-title">
-                I miei progetti
-            </h2>
+            <h2>I miei progetti</h2>
+
 
             <div class="projects">
 
-                <!-- PROGETTO RISO -->
-                <div class="project">
 
-                    <h3>🍚 Rice Image Classification</h3>
+                <!-- RICE -->
 
-                    <p>
-                        Progetto di classificazione di immagini
-                        di riso attraverso una Convolutional
-                        Neural Network (CNN).
-                    </p>
+                <div class="project-card">
+
+                    <h3>
+                        🍚 Rice Image Classification
+                    </h3>
 
                     <p>
-                        <strong>Tecnologie:</strong>
-                        Python, TensorFlow, Keras, NumPy, PIL
+
+                        Classificazione di immagini di riso
+                        utilizzando una Convolutional Neural
+                        Network realizzata con Python,
+                        TensorFlow e Keras.
+
                     </p>
 
-                    <a
-                        href="https://github.com/frizzanteantonio-ux"
-                        class="button"
-                        target="_blank">
-                        Vedi su GitHub
+                    <a href="#">
+
+                        Visualizza progetto →
+
                     </a>
 
                 </div>
 
 
-                <!-- PROGETTO PYTHON -->
-                <div class="project">
+                <!-- MACHINE LEARNING -->
 
-                    <h3>🐍 Python Exercises</h3>
+                <div class="project-card">
+
+                    <h3>
+                        🤖 Machine Learning
+                    </h3>
 
                     <p>
-                        Raccolta di esercizi e programmi realizzati
-                        per approfondire la programmazione Python,
-                        dalla sintassi di base alla programmazione
-                        ad oggetti.
+
+                        Progetti di Machine Learning con
+                        preprocessing dei dati, regressione,
+                        Decision Tree e Random Forest.
+
                     </p>
 
+                    <a href="#">
+
+                        Visualizza progetto →
+
+                    </a>
+
+                </div>
+
+
+                <!-- PYTHON -->
+
+                <div class="project-card">
+
+                    <h3>
+                        🐍 Python Exercises
+                    </h3>
+
                     <p>
-                        <strong>Tecnologie:</strong>
-                        Python
+
+                        Raccolta di esercizi e programmi
+                        realizzati durante il percorso
+                        di apprendimento della programmazione
+                        Python.
+
                     </p>
 
                     <a
                         href="https://github.com/frizzanteantonio-ux/Python-exercises-"
-                        class="button"
                         target="_blank">
-                        Vedi progetto
+
+                        Visualizza progetto →
+
                     </a>
 
                 </div>
 
-
-                <!-- PROGETTO MACHINE LEARNING -->
-                <div class="project">
-
-                    <h3>📈 Machine Learning</h3>
-
-                    <p>
-                        Esperimenti e progetti dedicati al
-                        Machine Learning, al preprocessing
-                        dei dati e alla valutazione dei modelli.
-                    </p>
-
-                    <p>
-                        <strong>Tecnologie:</strong>
-                        Python, Pandas, Scikit-learn
-                    </p>
-
-                    <a
-                        href="https://github.com/frizzanteantonio-ux"
-                        class="button"
-                        target="_blank">
-                        Vedi su GitHub
-                    </a>
-
-                </div>
-
-
-                <!-- PROGETTO DEEP LEARNING -->
-                <div class="project">
-
-                    <h3>🧠 Deep Learning</h3>
-
-                    <p>
-                        Studio delle reti neurali artificiali,
-                        del Deep Learning e dei modelli
-                        realizzati con TensorFlow e Keras.
-                    </p>
-
-                    <p>
-                        <strong>Tecnologie:</strong>
-                        TensorFlow, Keras, Python
-                    </p>
-
-                    <a
-                        href="https://github.com/frizzanteantonio-ux"
-                        class="button"
-                        target="_blank">
-                        Vedi su GitHub
-                    </a>
-
-                </div>
 
             </div>
 
@@ -270,42 +331,82 @@
     </section>
 
 
-    <!-- CONTATTI -->
-    <section id="contatti">
+    <!-- =========================
+         TECNOLOGIE
+         ========================= -->
+
+    <section id="technologies">
 
         <div class="container">
 
-            <h2 class="section-title">
-                Contatti
-            </h2>
+            <h2>Tecnologie</h2>
 
-            <p>
-                Puoi trovare i miei progetti e il mio percorso
-                di programmazione su GitHub.
+            <p style="text-align: center;">
+
+                Python • NumPy • Pandas • Matplotlib •
+                Scikit-learn • TensorFlow • Keras
+
             </p>
-
-            <br>
-
-            <a
-                href="https://github.com/frizzanteantonio-ux"
-                class="button"
-                target="_blank">
-                Il mio GitHub
-            </a>
 
         </div>
 
     </section>
 
 
-    <!-- FOOTER -->
+    <!-- =========================
+         CONTATTI
+         ========================= -->
+
+    <section id="contact">
+
+        <div class="container">
+
+            <h2>Contatti</h2>
+
+            <p style="text-align: center;">
+
+                Per conoscere meglio i miei progetti,
+                visita il mio profilo GitHub.
+
+            </p>
+
+
+            <div
+                class="buttons"
+                style="text-align: center;">
+
+                <a
+                    class="btn"
+                    href="https://github.com/frizzanteantonio-ux"
+                    target="_blank">
+
+                    GitHub →
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+         ========================= -->
+
     <footer>
 
         <p>
-            © 2026 Antonio Frizzante — Portfolio
+            © 2026 Antonio Frizzante
+        </p>
+
+        <p>
+            Python • Data Analysis • Machine Learning • Deep Learning
         </p>
 
     </footer>
+
 
 </body>
 
